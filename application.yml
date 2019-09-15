@@ -1,19 +1,19 @@
 ﻿spring:
  profiles:
   active:
-  -dev
+  - dev
 
 ---
 spring:
- profiles: dev	#开发环境
+ profiles: dev  #开发环境
  application:
- name: microservicecloud-config-kayak-dev
+  name: microservicecloud-config-kayak-dev
 
 ---
-spring
- profiles: test		#测试环境
+spring:
+ profiles: test   #测试环境
  application:
- name: microservicecloud-config-kayak-test
+  name: microservicecloud-config-kayak-test
 
 #请保存为UTF-8字符集
 
