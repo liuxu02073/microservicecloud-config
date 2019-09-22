@@ -7,15 +7,15 @@
 server:
  port: 7004
  
- spring:
-  profiles: dev
-  application:
-   name: microservicecloud-config-eureka-client
+spring:
+ profiles: dev
+ application:
+  name: microservicecloud-config-eureka-client
    
- eureka:
-  instance:
-   hostname: eureka7004.com                 #eureka服务端的实例名称:localhost,eureka集群之后不等都是用这个了
-  client:
+eureka: 
+ instance:
+   hostname: eureka7004.com         #eureka服务端的实例名称:localhost,eureka集群之后不等都是用这个了
+ client: 
    registerWithEureka: false     #false表示不向注册中心注册自己。
    fetchRegistry: false     #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
    service-url: 
