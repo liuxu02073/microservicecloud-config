@@ -34,7 +34,7 @@ mybatis:
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url: 
-      defaultZone: http://eurekat7004.com:7004/eureka/
+      defaultZone: http://eureka7004.com:7004/eureka/
       #,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
       #http://localhost:7001/eureka，实现集群后服务需要注册到所有的eureka集群
   instance:
@@ -77,7 +77,7 @@ spring:
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url: 
-      defaultZone: http://eurekat7004.com:7004/eureka/
+      defaultZone: http://eureka7004.com:7004/eureka/
       #,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
       #http://localhost:7001/eureka，实现集群后服务需要注册到所有的eureka集群
   instance:
